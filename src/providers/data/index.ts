@@ -8,8 +8,8 @@ import { createClient } from "graphql-ws"
 // ✅ URL de base de l'API HTTP
 export const API_BASE_URL = 'https://api.crm.refine.dev'
 
-// ✅ URL GraphQL HTTP (même que BASE ici)
-export const API_URL = 'https://api.crm.refine.dev'
+// ✅ URL GraphQL HTTP
+export const API_URL = `${API_BASE_URL}/graphql`
 
 // ✅ URL du serveur WebSocket pour le live updates GraphQL
 export const WS_URL = 'wss://api.crm.refine.dev/graphql'
